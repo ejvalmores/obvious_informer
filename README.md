@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Just call 
 
-    $ obvious_logger(message) 
+    obvious_logger(message) 
 
 to output: 
 
