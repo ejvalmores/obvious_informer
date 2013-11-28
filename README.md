@@ -6,7 +6,7 @@ Just a simple gem that allows me to make some log messages really obvious to see
 
 Add this line to your application's Gemfile:
 
-    gem 'obvious_informer'
+    gem 'obvious_informer', :git => 'https://github.com/ejvalmores/obvious_informer.git'
 
 And then execute:
 
