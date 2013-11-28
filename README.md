@@ -19,15 +19,23 @@ Or install it yourself as:
 ## Usage
 
 Just call 
+
     $ obvious_logger(message) 
+
 to output: 
+
     -------------------- the_message -------------------- 
+
 in the log file (will use Rails.logger.info).
 
 Calling
+
     obvious_puts(message) 
+
 will use *puts* to output message wrapped in '-'. Example: 
+
     -------------------- the_message --------------------
+
 
 You can also set the marker to another char (instead of the defaul '-') by passing the :marker option. 
 Example: 
